@@ -10,7 +10,7 @@ cover: /images/posts/wrack_small.jpg
 fullscreen: false
 ---
 
-Corona ist furchtbar. Die Krise gebiert schlimme Schicksale. Aber sie ruft auch kreative Lösungen hervor. Und so kann man sich die Frage stellen: Werntlich nach der Krise sein?
+Corona ist furchtbar. Die Krise gebiert schlimme Schicksale. Aber sie ruft auch kreative Lösungen hervor. Und so kann man sich selbst die Frage stellen: Wer will ich nach der Krise sein?
 
 Ich will weiterhin naiv sein, naive Ideen haben. Ich bin stolz darauf, sie trotz ihrer Naivität häufig einfach umzusetzen. Denn ich bin überzeugt,
 
