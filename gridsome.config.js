@@ -51,14 +51,14 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Bleda, a Gridsome blog starter',
-          feed_url: 'https://gridsome-starter-bleda.netlify.com/feed.xml',
-          site_url: 'https://gridsome-starter-bleda.netlify.com',
+          title: 'Blankes Leben - das Blog von blankenese.online',
+          feed_url: 'https://blog.blankenese.online/feed.xml',
+          site_url: 'https://blog.blankenese.online',
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.description,
-          url: 'https://gridsome-starter-bleda.netlify.com' + node.path,
+          url: 'https://blog.blankenese.online' + node.path,
           author: node.author,
           date: node.date,
         }),
