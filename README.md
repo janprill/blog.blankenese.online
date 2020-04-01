@@ -1,68 +1,68 @@
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-hero.jpg" alt="gatsby-novela-theme hero image" />
-</a>
+# Bleda
 
-<br/>
+> A blog starter theme for [Gridsome](https://gridsome.org), inspired by the [Attila](https://github.com/zutrinken/attila) Ghost theme and styled with [Tailwind CSS](https://tailwindcss.com).
 
-# Gatsby Starter Novela
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cossssmin/gridsome-starter-bleda)
 
-With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Gatsby.
+## Demo
 
-Novela is built by the team at [Narative](https://www.narative.co), and built for everyone that loves the web.
+- [Page](https://gridsome-starter-bleda.netlify.com/about/)
+- [Single post](https://gridsome-starter-bleda.netlify.com/getting-started-with-gridsome-and-bleda/)
+- [Blog archive](https://gridsome-starter-bleda.netlify.com/)
+- [Tags archive](https://gridsome-starter-bleda.netlify.com/tag/getting-started/)
+- [Author archive](https://gridsome-starter-bleda.netlify.com/author/gridsome/)
 
-<div>
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-demo.jpg" alt="gatsby-novela-theme live demo" width="295px" />
-</a>
-</div>
+## Preview
 
-<div>
-<a href="https://www.narative.co/design/open/novela" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-figma.jpg" alt="gatsby-novela-theme figma link" width="295px" />
-</a>
-</div>
+![Bleda starter for Gridsome devices preview](https://res.cloudinary.com/cossssmin/image/upload/v1551618609/os/gridsome/bleda/bleda-screenshot-devices.jpg)
 
-# Using Gatsby Starter Novela
+## Features
 
-This guide will take you through setting up Novela with Gatsby Starter Novela.
+- Sitemap
+- RSS Feed
+- Google Analytics
+- Custom 404 Page
+- Open Graph meta tags
+- Code syntax highlighting
+- Parallax post image covers
+- Option for fullscreen covers
+- Medium-like image lightbox
+- Taxonomies: Tags and Authors
+- Aproximate read time for posts
+- Post excerpts: automatic or user-defined
+- **Paginated** [blog](https://gridsome-starter-bleda.netlify.com/2/), [tag](https://gridsome-starter-bleda.netlify.com/tag/dummy/), and [author](https://gridsome-starter-bleda.netlify.com/author/gridsome/) archives
+- Easily show post dates in your locale (moment.js)
+- Posts show a warning if they're older than 1 year (configurable)
 
-### Step 1: Starter installation
+## Installation
 
-##### With `gatsby-cli`:
-
-```sh
-gatsby new novela-site https://github.com/narative/gatsby-starter-novela
-```
-
-##### With `git clone`:
-
-```sh
-git clone git@github.com:narative/gatsby-starter-novela.git novela-site
-
-cd novela-site
-
-yarn
-```
-
-### Step 2: Develop & Build
-
-Once installed or cloned locally and all packages are installed you can begin developing your site.
+It's recommended that you install Bleda with the `gridsome create` command, so that Gridsome removes the `.git` folder and installs NPM dependencies for you:
 
 ```sh
-# Run localhost
-yarn dev
-
-# Build your Gatsby site
-yarn build
+gridsome create my-website https://github.com/cossssmin/gridsome-starter-bleda.git
 ```
 
-If wanting to use Netlify CMS as the content editor, then you need to be run the proxy in another terminal tab. Then visit
-http://localhost:8000/admin to view the editor.
+Alternatively, you can clone this repo and set it up manually:
+
 ```sh
-# Run proxy
-yarn proxy
+git clone https://github.com/cossssmin/gridsome-starter-bleda.git my-website
+
+# navigate to the directory
+cd my-website
+
+# remove the Git folder
+rm -rf .git
+
+# install NPM dependencies
+npm install
 ```
 
-### Help
+## Configuration
 
-For more information visit the [Theme repository](https://github.com/narative/gatsby-theme-novela)
+See the [configuration notes](https://gridsome-starter-bleda.netlify.com/getting-started-with-gridsome-and-bleda/#configuration) in the Getting Started demo post.
+
+## Development
+
+Run `gridsome develop` to start a local development server, or `gridsome build` to build the static site into the `dist` folder.
+
+See the [Gridsome docs](https://gridsome.org/docs) for more information.

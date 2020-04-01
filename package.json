@@ -1,22 +1,28 @@
 {
+  "name": "blog.blankenese.online",
   "private": true,
-  "name": "site",
-  "version": "1.0.0",
-  "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop",
-    "clean": "gatsby clean",
-    "proxy": "netlify-cms-proxy-server"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "newpost": "node scripts/newPost.js"
   },
   "dependencies": {
-    "@narative/gatsby-theme-novela": "^0.*",
-    "gatsby": "^2.13.41",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-plugin-netlify-cms": "^4.1.40",
-    "netlify-cms-app": "^2.11.23",
-    "netlify-cms-proxy-server": "^1.1.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@gridsome/plugin-sitemap": "^0.2.3",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.5.0",
+    "gridsome": "^0.7.13",
+    "gridsome-plugin-remark-shiki": "^0.3.1",
+    "gridsome-plugin-rss": "^1.2.0",
+    "medium-zoom": "^1.0.5",
+    "vue-parallaxy": "^1.1.1"
+  },
+  "devDependencies": {
+    "moment": "^2.24.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "tailwindcss": "^1.2.0"
   }
 }
