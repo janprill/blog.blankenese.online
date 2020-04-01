@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: 'Blankes Leben! Das Blog von blankenese.online',
-  siteDescription: "",
+  siteName: 'Blankes Leben!',
+  siteDescription: "Das Blog von blankenese.online",
   siteUrl: 'https://blog.blankenese.online',
   titleTemplate: `%s | Blankes Leben`,
 
